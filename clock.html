@@ -1,0 +1,43 @@
+<html>
+	<head>
+	
+	</head>
+	<body>
+            <div id="countdown"></div>
+            <script type ="text/javascript">
+               var hour=5;
+               var min=0;
+               var sec=0;
+               var counter=setInterval(timer, 10); //1000 will  run it every 1 second
+                
+               function timer(){
+                   sec=sec+1;
+                   if (sec >= 60){
+                        min=min+1;
+                        if (min  >= 60){
+                            hour=hour+1;
+                            if (hour >= 25){
+                                //clearInterval(counter);
+                                //counter ended, do something here
+                                //document.getElementById("countdown").innerHTML= "";
+                                hour = 5;
+                                return ;
+                            }
+                        min = 0;
+                        return ;
+                        }      
+                   sec =0;
+                   return ;   
+                   }       
+
+                //Do code for showing the number of seconds here
+                document.getElementById("countdown").innerHTML=hour + "h:" + min + "m:" + sec + "s"; // watch for      spelling
+
+                }
+                
+               
+                
+            </script>
+		
+	</body>
+</html>
