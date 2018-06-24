@@ -1,0 +1,109 @@
+Code,Name,Lat,Lon,region1,region2
+SA,Songshan Airport,783.5914667,450.8019178,Asia,Taiwan
+ZJHS,Zhongshan Junior High School,757.2138667,459.8231781,Asia,Taiwan
+NF,Nanjing Fuxing,754.9400889,494.8974677,Asia,Taiwan
+ZF,Zhongxiao Fuxing,755.712,535.1940469,Asia,Taiwan
+DAAN,Daan,755.1150222,569.6557354,Asia,Taiwan
+TECB,Technology Building,754.4942222,596.45154,Asia,Taiwan
+LZG,Liuzhangli,788.6506667,604.8765836,Asia,Taiwan
+LGG,Linguang,809.1626667,625.7576646,Asia,Taiwan
+XHI,Xinhai,802.7029333,677.3112029,Asia,Taiwan
+WFH,Wanfang Hospital,806.3239111,700.3761245,Asia,Taiwan
+WFC,Wanfang Community,842.0149333,703.8941175,Asia,Taiwan
+MZ,Muzha,860.1813333,705.284297,Asia,Taiwan
+TPEZ,Taipei Zoo,882.0448,705.1895942,Asia,Taiwan
+DAZI,Dazhi,771.1950222,382.6061389,Asia,Taiwan
+JNR,Jiannan Road,797.7144889,365.2498106,Asia,Taiwan
+XHU,Xihu,838.9777778,375.9949064,Asia,Taiwan
+GQ,Gangqian,867.6732444,384.4996165,Asia,Taiwan
+WD,Wende,902.1102222,390.2384962,Asia,Taiwan
+NHU,Neihu,934.9543111,370.7180405,Asia,Taiwan
+DHP,Dahu Park,963.7792,369.5281309,Asia,Taiwan
+HZH,Huzhou,981.3031111,413.1787272,Asia,Taiwan
+DGH,Donghu,997.2878222,433.2425237,Asia,Taiwan
+NSP,Nangang Software Park,1012.2816,463.3836709,Asia,Taiwan
+TNEC,Taipei Nangang Exhibition Center,1018.213333,484.3166548,Asia,Taiwan
+XBT,Xiaobitan,725.5032889,817.8597686,Asia,Taiwan
+XDN,Xindian,733.7244444,863.6783486,Asia,Taiwan
+XDO,Xindian District Office,746.8398222,826.3306758,Asia,Taiwan
+QZ,Qizhang,752.5720889,796.1748111,Asia,Taiwan
+DPL,Dapinglin,747.0791111,765.4584871,Asia,Taiwan
+JGM,Jingmei,745.4968889,725.1934053,Asia,Taiwan
+WAL,Wanlong,738.6748444,690.7217356,Asia,Taiwan
+GG,Gongguan,722.1226667,640.7293406,Asia,Taiwan
+TB,Taipower Building,700.2215111,617.2452897,Asia,Taiwan
+GT,Guting,680.2414222,592.9448876,Asia,Taiwan
+CKSMH,Chiang Kai-Shek Memorial Hall,660.6197333,563.9511352,Asia,Taiwan
+XNM,Xiaonanmen,638.3352889,558.4630474,Asia,Taiwan
+DX,Dingxi,654.9329778,645.0014455,Asia,Taiwan
+YM,Yongan Market,639.5569778,688.4048935,Asia,Taiwan
+JG,Jingan,618.1006222,722.2760506,Asia,Taiwan
+NSJ,Nanshijiao,632.6136889,736.0590593,Asia,Taiwan
+NTUH,National Taiwan University Hospital,657.6714667,534.3115548,Asia,Taiwan
+TMS,Taipei Main Station,662.0017778,517.0198839,Asia,Taiwan
+ZGS,Zhongshan,672.5223111,491.7346733,Asia,Taiwan
+SGL,Shuanglian,673.6355556,472.2232834,Asia,Taiwan
+MWR,Minquan West Road,668.8451556,451.6960245,Asia,Taiwan
+YS,Yuanshan,671.5797333,418.317306,Asia,Taiwan
+JT,Jiantan,688.7790222,367.8488656,Asia,Taiwan
+SL,Shilin,693.1253333,331.5825255,Asia,Taiwan
+ZS,Zhishan,680.1504,294.9228085,Asia,Taiwan
+MD,Mingde,666.9169778,267.5042357,Asia,Taiwan
+SP,Shipai,655.6170667,249.3378144,Asia,Taiwan
+QL,Qilian,622.2748444,224.0579139,Asia,Taiwan
+QY,Qiyan,603.8506667,205.4950129,Asia,Taiwan
+BT,Beitou,594.9909333,180.6662149,Asia,Taiwan
+XBTU,Xinbeitou,608.9998222,160.9138002,Asia,Taiwan
+FXG,Fuxinggang,547.4065778,158.9091558,Asia,Taiwan
+ZG,Zhongyi,504.4344889,185.2068361,Asia,Taiwan
+GD,Guandu,483.3767111,204.7101724,Asia,Taiwan
+ZW,Zhuwei,455.8453333,160.8641958,Asia,Taiwan
+HSL,Hongshulin,454.0604444,93.44323264,Asia,Taiwan
+TS,Tamsui,405.3628444,38.92207948,Asia,Taiwan
+DP,Dingpu,311.5786667,857.5562576,Asia,Taiwan
+YG,Yongning,375.3859556,827.0115878,Asia,Taiwan
+TC,Tucheng,402.4945778,803.4581634,Asia,Taiwan
+HS,Haishan,418.2232889,755.1245456,Asia,Taiwan
+FEH,Far Eastern Hospital,431.6405333,703.9674005,Asia,Taiwan
+FZ,Fuzhong,455.0005333,663.3782881,Asia,Taiwan
+BAQ,Banqiao,468.0241778,642.3394228,Asia,Taiwan
+XP,Xinpu,486.176,608.2076743,Asia,Taiwan
+JZC,Jiangzicui,501.2864,581.0970282,Asia,Taiwan
+LST,Longshan Temple,604.3409778,560.2040429,Asia,Taiwan
+XM,Ximen,630.1784889,532.7983989,Asia,Taiwan
+SDT,Shandao Temple,682.9873778,522.5930576,Asia,Taiwan
+ZXXS,Zhongxiao Xinsheng,717.0446222,532.2401819,Asia,Taiwan
+ZXDH,Zhongxiao Dunhua,776.5546667,535.6153758,Asia,Taiwan
+SYSMH,Sun Yat-Sen Memorial Hall,805.1160889,536.1935644,Asia,Taiwan
+TCH,Taipei City Hall,832.0337778,536.8551466,Asia,Taiwan
+YC,Yongchun,869.7703111,538.0924025,Asia,Taiwan
+HSP,Houshanpi,891.5701333,524.6905702,Asia,Taiwan
+KY,Kunyang,930.7381333,501.4955662,Asia,Taiwan
+NG,Nangang,982.6993778,493.6863968,Asia,Taiwan
+XS,Xiangshan,851.2579556,569.762669,Asia,Taiwan
+TWTC,Taipei 101 / World Trade Center,825.7425778,569.0321451,Asia,Taiwan
+XA,Xinyi Anhe,789.2711111,568.3628372,Asia,Taiwan
+DAP,Daan Park,725.5395556,566.8512011,Asia,Taiwan
+BM,Beimen,636.5461333,505.0059069,Asia,Taiwan
+SJNJ,Songjiang Nanjing,717.5836444,492.779377,Asia,Taiwan
+TA,Taipei Arena,784.9002667,495.7710051,Asia,Taiwan
+NJSM,Nanjing Sanmin,828.9667556,496.5988175,Asia,Taiwan
+SS,Songshan,876.3854222,502.2292932,Asia,Taiwan
+FJU,Fu Jen University,371.7774222,569.8591643,Asia,Taiwan
+XZH,Xinzhuang,430.4636444,556.5985094,Asia,Taiwan
+TQH,Touqianzhuang,463.5541333,543.0225964,Asia,Taiwan
+XT,Xianse Temple,500.8810667,515.8668744,Asia,Taiwan
+SC,Sanchong,542.9212444,480.2590325,Asia,Taiwan
+CL,Cailiao,568.4917333,464.3675197,Asia,Taiwan
+TBD,Taipei Bridge,599.5306667,451.4331191,Asia,Taiwan
+DQT,Daqiaotou,645.6846222,451.5166067,Asia,Taiwan
+ZES,Zhongshan Elementary School,698.3626667,452.5818083,Asia,Taiwan
+XTT,Xingtian Temple,717.8894222,470.9705507,Asia,Taiwan
+DM,Dongmen,700.6997333,565.311463,Asia,Taiwan
+LZ,Luzhou,473.2704,339.0825608,Asia,Taiwan
+SSHS,Sanmin Senior High School,504.8565333,362.2193286,Asia,Taiwan
+SIHS,Saint Ignatius High School,527.5239111,381.5679481,Asia,Taiwan
+SJHS,Sanhe Junior High School,551.4570667,397.0114237,Asia,Taiwan
+SES,Sanchong Elementary School,590.9009778,423.9897574,Asia,Taiwan
+HL,Huilong,289.4677333,610.0863738,Asia,Taiwan
+DF,Danfeng,325.1523556,584.9577159,Asia,Taiwan

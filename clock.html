@@ -1,14 +1,14 @@
 <html>
 	<head>
-	
+
 	</head>
 	<body>
-            <div id="countdown"></div>
+            <div id="countdown" style="text-align:right; font-size: 50px;"></div>
             <script type ="text/javascript">
-               var hour=5;
+               var hour=6;
                var min=0;
                var sec=0;
-               var counter=setInterval(timer, 10); //1000 will  run it every 1 second
+               var counter=setInterval(timer, 3); //1000 will  run it every 1 second
                 
                function timer(){
                    sec=sec+1;
@@ -16,11 +16,13 @@
                         min=min+1;
                         if (min  >= 60){
                             hour=hour+1;
-                            if (hour >= 25){
-                                //clearInterval(counter);
+                            var timetest = new Date().getSeconds();
+                            console.log(timetest);
+                            if (hour >= 24){
+                                clearInterval(counter);
                                 //counter ended, do something here
-                                //document.getElementById("countdown").innerHTML= "";
-                                hour = 5;
+                                document.getElementById("countdown").innerHTML= "24h:00m:00s";
+                                //hour = 5;
                                 return ;
                             }
                         min = 0;
@@ -31,6 +33,7 @@
                    }       
 
                 //Do code for showing the number of seconds here
+                 
                 document.getElementById("countdown").innerHTML=hour + "h:" + min + "m:" + sec + "s"; // watch for      spelling
 
                 }
