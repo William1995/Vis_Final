@@ -56,7 +56,12 @@
     <h1 align="center">台北捷運人流移動分時呈現</h1>
     <h3>緣起： 此專案為台北捷運分時流量之視覺化呈現，希望透過動畫展演的方式能讓閱聽人清楚了解人流移動情況。</h3>
     <h3>操作： 可以透過下拉選單選取欲觀察之日期。</h3>
-    <h3>說明： 在選取日期後，會將捷運各站標上地圖同時從早上6點開始呈現人流移動狀況，直到24時結束。圖中移動之圓圈大小代表人流量之大小，左側會顯示對應時間。</h3>
+    <h3>說明： 在選取日期後，會將捷運各站標上地圖同時從早上6點開始呈現人流移動狀況，直到24時結束。<br>
+    		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;圖中移動之圓圈大小代表人流量之大小，左側會顯示對應時間。<br>
+    		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		  另外使用顏色標註乘客數大於1000的情況，
+    		  而紅色代表轉乘前，藍色代表轉乘後。
+    		  </h3>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <div>
 
@@ -156,30 +161,45 @@
 
             var v = 10 / 30 / 3;  // 假定平均速率
 
-            var scale_max = 900;  // 乘車人數最大值
+            var scale_max = 2000;  
 
-            var rad = 50;
+            var rad = 15;
 
             //var waiting = 500 / v;
 
-            var waiting = 2000;
+            var waiting = 3000;
 
             var move = function (x1, y1, x2, y2, Num, c) {      // 從A(x1 ,y1 ) 到  B (x2,y2)
 
                 //var time = Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2)) / v;
                 var time = waiting;
+                var color = "";
 
-                if (c == 1)
-                    time = waiting *2;
+                if (c == 1){
+                	time = waiting *2;
+                
+                if (Num > 1000){color = '#FC0303';}
+                else{color = "#666666";}
+                }
+
+                if(c == 2){
+                	if (Num > 1000){color = 'blue';}
+                	else{color = "#666666";}
+                }
+
+                if(c == 0){
+                	 if (Num > 1000){color = '#FC0303';}
+                	else{color = "#666666";}
+                }
 
                 svg.append("circle")
                 .attr("cx", x1)
                 .attr("cy", y1)
 
                 .attr("r", Num / scale_max * rad)
-                .attr("fill", "#666666")
+                .attr("fill", color)
                 .attr("stroke", "#DDDDDD")
-                .attr("opacity", 0.5)
+                .attr("opacity", 0.3)
                 .transition()
                 .duration(time)
                 .attr("cx", x2)
@@ -262,7 +282,7 @@
                                     
                                     if (data_2[j].Time == day_hours && data_2[j].Num != 0) {
                                         if (data_2[j].x1 != -1)                             // 判斷抓資料中的第幾小時   day_hours  測試用所以寫0
-                                            move(data_2[j].x1, data_2[j].y1, data_2[j].x2, data_2[j].y2, data_2[j].Num , 0);
+                                            move(data_2[j].x1, data_2[j].y1, data_2[j].x2, data_2[j].y2, data_2[j].Num , 2);
                                     }
 
 
